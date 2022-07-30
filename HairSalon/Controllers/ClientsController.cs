@@ -4,6 +4,7 @@ using HairSalon.Models;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace HairSalon.Controllers
 {
@@ -72,5 +73,24 @@ namespace HairSalon.Controllers
       return RedirectToAction("Index");
     }
 
+    [HttpPost, ActionName("DeleteAll")]
+    public ActionResult DeleteAll()
+    {
+      var records = client => _db.Clients;
+      foreach (var row in records)
+      {
+          _db.Clients.Remove(row);
+      }
+      _db.SaveChanges();
+      
+      return View("DeleteAll");
+    }
+    // var records = from m in customerDB.Customers
+    // select m;
+    // foreach (var record in records)
+    // {
+    // customerDB.Customers.Remove(record);
+    // }
+    // customerDB.SaveChanges();
   }
 }
