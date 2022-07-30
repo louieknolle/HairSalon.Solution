@@ -4,7 +4,7 @@
 
 @model HairSalon.Models.Stylist
 
-<h4>Add a new stylist</h4>
+<h3>Add a new stylist</h3>
 @using (Html.BeginForm())
 {
   @Html.LabelFor(model => model.Name)
@@ -13,4 +13,4 @@
   @Html.TextBoxFor(model => model.Specialty)
   <input type="submit" value="Add new stylist" />
 }
-<p>@Html.ActionLink("Show all stylists", "Index")</p>
+<p class="bodyLink">@Html.ActionLink("Show all stylists", "Index")</p>

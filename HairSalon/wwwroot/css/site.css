@@ -14,7 +14,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: auto;
 }
 
@@ -46,6 +46,16 @@ h3 {
   color: #846ccc;
 }
 
+.stylistLink a {
+  color:#846ccc;
+  text-decoration: none;
+}
+
+.stylistLink a:hover {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
 .bodyLink a{
   background-color: #cc796c;
   color: #b4cc6c;
@@ -54,5 +64,33 @@ h3 {
   padding: .5rem;
   font-size: larger;
   display: inline-block;
+}
+
+.bodyLink a:hover {
+  border:#cc796c .5rem solid;
+  color: #846ccc;
+  background-color: #b4cc6c;
+  text-decoration: underline;
+}
+
+input {
+  margin-left: .2rem;
+  display: block;
+  margin-bottom: 1rem;
+  background-color: #846ccc;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+label {
+  color: #846ccc;
+  margin-bottom: .5rem;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+button {
+  background-color: #846ccc;
+  color: whitesmoke;
 }
 
