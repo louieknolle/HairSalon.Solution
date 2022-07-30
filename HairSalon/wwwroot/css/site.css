@@ -23,7 +23,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: #cc796c;
+  color:whitesmoke;
   text-align: center;
   font-size: larger;
   padding-bottom: 3em;
@@ -44,6 +44,7 @@ h1 {
 
 h3 {
   color: #846ccc;
+  margin-bottom: 2rem;
 }
 
 .stylistLink a {
@@ -64,6 +65,7 @@ h3 {
   padding: .5rem;
   font-size: larger;
   display: inline-block;
+  padding: 0.5rem;
 }
 
 .bodyLink a:hover {
@@ -92,5 +94,11 @@ label {
 button {
   background-color: #846ccc;
   color: whitesmoke;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: large;
+  color: #846ccc;
 }
 
