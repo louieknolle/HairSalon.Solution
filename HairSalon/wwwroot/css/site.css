@@ -10,6 +10,12 @@ html {
 
 body {
   background-image: url(https://images.unsplash.com/photo-1587115508501-2628609cbea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-color: #b4cc6c;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 #footer {
@@ -17,8 +23,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #fbf5e8;
-  color: #ac7849;
+  color: #cc796c;
   text-align: center;
   font-size: larger;
   padding-bottom: 3em;
@@ -26,10 +31,28 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   width: 60%;
   margin: auto;
-  background-color: #fbf5e8;
-  color: #ac7849;
+  color: #cc796c;
+}
+
+h1 {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+h3 {
+  color: #846ccc;
+}
+
+.bodyLink a{
+  background-color: #cc796c;
+  color: #b4cc6c;
+  border-radius: 50%;
+  text-decoration: none;
+  padding: .5rem;
+  font-size: larger;
+  display: inline-block;
 }
 
