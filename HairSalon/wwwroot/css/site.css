@@ -8,6 +8,10 @@ html {
   }
 }
 
+header {
+  color: #cc796c;
+}
+
 body {
   background-image: url(https://images.unsplash.com/photo-1587115508501-2628609cbea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   background-color: #b4cc6c;
@@ -45,6 +49,11 @@ h1 {
 h3 {
   color: #846ccc;
   margin-bottom: 2rem;
+}
+
+.stylistLink {
+  color:#846ccc;
+  text-decoration: none;
 }
 
 .stylistLink a {
@@ -100,5 +109,22 @@ p {
   margin-bottom: 1rem;
   font-size: large;
   color: #846ccc;
+}
+
+a {
+  color: #846ccc;
+  margin-left: 2rem;
+  margin-top: auto;
+}
+
+li.nav-item {
+  height: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+  font-size: large;
 }
 
