@@ -8,11 +8,28 @@ html {
   }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+body {
+  background-image: url(https://images.unsplash.com/photo-1587115508501-2628609cbea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
 }
 
-body {
-  margin-bottom: 60px;
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fbf5e8;
+  color: #ac7849;
+  text-align: center;
+  font-size: larger;
+  padding-bottom: 3em;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  background-color: #fbf5e8;
+  color: #ac7849;
+}
+
