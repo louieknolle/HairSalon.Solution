@@ -1,8 +1,9 @@
-using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc;
 using HairSalon.Models;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace HairSalon.Controllers
 {
@@ -29,8 +30,13 @@ namespace HairSalon.Controllers
     [HttpPost]
     public ActionResult Create(Stylist stylist)
     {
+
+    
       _db.Stylists.Add(stylist);
       _db.SaveChanges();
+      
+      
+   
       return RedirectToAction("Index");
     }
 
