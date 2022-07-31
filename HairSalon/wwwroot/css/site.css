@@ -13,13 +13,23 @@ header {
 }
 
 body {
-  background-image: url(https://images.unsplash.com/photo-1587115508501-2628609cbea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  /* background-image: url(https://images.unsplash.com/photo-1587115508501-2628609cbea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80); */
   background-color: #b4cc6c;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
   margin: auto;
+}
+
+.scissorsPic {
+  object-fit: cover;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
 #footer {
@@ -66,15 +76,18 @@ h3 {
   text-decoration: underline;
 }
 
-.bodyLink a{
+.btn, .bodyLink a{
   background-color: #cc796c;
   color: #b4cc6c;
   border-radius: 50%;
   text-decoration: none;
   padding: .5rem;
   font-size: larger;
-  display: inline-block;
+  display: block;
   padding: 0.5rem;
+  text-align: center;
+  width: fit-content;
+  margin-top: 1rem;
 }
 
 .bodyLink a:hover {
