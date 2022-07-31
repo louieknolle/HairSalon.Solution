@@ -2,7 +2,7 @@
 
 #### By _**Louie Knolle**_
 
-####_This is a web-based application to allow a beauty shop owner the ability to keep a log of employed stylists and their respective clients._
+#### _This is a web-based application to allow a beauty shop owner the ability to keep a log of employed stylists and their respective clients._
 
 ## Technologies Used
 
@@ -20,7 +20,7 @@ This application allows Claire of Eau Cl-hair's Beauty Salon to keep track of al
 
 ## Setup/Installation Requirements
 * _Open the terminal on your computer_
-* _If they do not currently exist in your system, install [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) and [.NET]https://docs.microsoft.com/en-us/dotnet/). You can follow the instructions found in this [lesson](https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/getting-started-with-c/installing-and-configuring-mysql)_
+* _If they do not currently exist in your system, install [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) and [.NET](https://docs.microsoft.com/en-us/dotnet/). You can follow the instructions found in this [lesson](https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/getting-started-with-c/installing-and-configuring-mysql)_
 * _Clone this repository onto your computer by running this command in your terminal `https://github.com/louieknolle/HairSalon.Solution.git`_
 
 * _Start the server on MySQL with this command `mysql -uroot -p[YOUR-PASSWORD-HERE]`_
@@ -44,7 +44,7 @@ This application allows Claire of Eau Cl-hair's Beauty Salon to keep track of al
 }
 ```
 * _Issue command `$dotnet restore` in the project folder to launch the developer environment and install required dependencies_
-* _Next run the program with `$dotnet run` and _
+* _Next run the program with `$dotnet run` and a server will be launched in your default browser_
 
 ## Known Bugs
 
