@@ -1,4 +1,5 @@
-# Eau Cl-hair's Beauty Salon
+# Eau Cl-hair's Beauty Salon 
+#### _[Link to Github repo](https://github.com/louieknolle/HairSalon.Solution.git)_
 
 #### By _**Louie Knolle**_
 
